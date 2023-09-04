@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title></title>
+</head>
+<body class="">
+    
+    {{!-----------------------------------------NAVBAR------------------------------------}}
+    
+    {{>navbar}}
+
+    {{! --------------------------------------hero content------------------------------- }}
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class=" col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-center flex-column">
+                        <h1>We Will Help You To</h1>
+                        <h1>Expand Your Business</h1>
+                        <p>Lorem ipsum dolor sit Loipsum dolor Lorem ipsum dolor sit, trlaamet consectetur adipisicing elit. Vitae doloribus voluptas ratione. sitamet consectetur adipisicing elit. <span class="bold-style text-danger">Professional Solution </span></p>
+                        <button class="btn-style btn-primary">Join Now</button>
+                    </div>
+                    <div class=" col-md-6 col-12 hero-text order-md-1 order-0  " >
+                        <figure><img src="images/growth.png " class="img-fluid" alt="grow_image"></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{! ----------------------------------------About Us-------------------------------------------}}
+
+    <div class="container-fluid mt-5" id="aboutid">
+        <div class="row ">
+            <div class="col-md-10 col-12 mx-auto ">
+                <h1 class="text-center main-heading">About Us</h1>
+                <p class=" text-center sub-heading">Its Your Life Make It Large</p>
+                <div class="row ">
+                    <div class=" col-md-6 col-12 hero-text   " >
+                        <figure><img src="images/about.svg " class="img-fluid" alt="about_image"></figure>
+                    </div>
+                    <div class=" col-md-6 col-12 hero-text d-flex justify-content-center align-items-center flex-column">
+                        <h1>We Will Help You To</h1>
+                        <h1>Expand Your Business</h1>
+                        <p>Lorem ipsum dolor sit Loipsum dolor Lorem ipsum dolor sit, trlaamet consectetur adipisicing elit. Vitae doloribus voluptas ratione. sitamet consectetur adipisicing elit. <span class="bold-style text-success">Professional Solution </span></p>
+                        <button class="btn-style btn-primary">Read More</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{{! ------------------------------------------Services---------------------------------------------}}
+
+{{>services}}
+
+{{! -------------------------------------------Contact---------------------------------------------}}
+
+{{>contact}}
+
+     {{! linking jq middleware with hbs}}
+
+    <script src="../jq/jquery.js" type="text/javascript">
+    </script>
+
+    {{! linking js middleware with hbs}}
+
+        <script src="../js/bootstrap.js" type="text/javascript">
+         </script>
+
+</body>
+</html>

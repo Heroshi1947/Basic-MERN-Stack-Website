@@ -1,0 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
+.form-group label {
+    font-weight: bold;
+  }
